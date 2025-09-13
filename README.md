@@ -1,2 +1,2 @@
 # Music_Recommendations
-An interface taking user music input data (songs, artists) and using machine learning through scikit nnearest-neighbours algorithm to generate a recommended playlist. Launched on vercel at songsuggestions.vercel.app
+An interface taking user music input data (songs, artists) and using machine learning through scikit nnearest-neighbours algorithm to generate a recommended playlist. Launched on vercel at https://songsuggestions.vercel.app
