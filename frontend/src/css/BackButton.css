@@ -1,0 +1,15 @@
+#backButton {
+  width: 7.5%;
+  height: 33px;
+  outline: none;
+  border: none;
+  background-color: #ccd5ae;
+  color: white;
+  cursor: pointer;
+}
+
+#backIcon {
+  height: 16px;
+  margin-top: 4px;
+  color: #D4A373;
+}

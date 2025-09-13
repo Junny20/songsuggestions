@@ -1,0 +1,59 @@
+#pageContainer {
+  display: flex !important;
+  justify-content: center;
+}
+#fullContain {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  border: 0.3rem solid #e8cdb2;
+  width: fit-content;
+  height: 65vh;
+}
+
+#loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2.5rem;
+  background-color: #e9edc9;
+}
+
+#loginTitle {
+  font-size: 1.5rem;
+  color: #afb794;
+}
+
+#loginButton {
+  font-size: 2rem;
+  padding: 10px 30px 10px 30px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 8px 0px #d4a373;
+  background-color: #e2bd98;
+  color: white;
+}
+
+#loginButton:hover {
+  /*transform: scale(1.05); */
+  cursor: pointer;
+  transform: translateY(2px);
+  box-shadow: 0px 6px 0px #d4a373;
+}
+
+#loginButton:active {
+  transform: translateY(4px);
+  box-shadow: 0px 4px 0px #d4a373;
+}
+
+#spotifyIcon {
+  margin-top: 8px;
+  color: #fefae0;
+}
+
+#fieldImage {
+  width: 24rem;
+  height: auto;
+}

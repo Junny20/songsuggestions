@@ -1,0 +1,118 @@
+#loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 60vh;
+  margin-top: 20vh;
+  margin-left: 15vw;
+}
+
+#head {
+  position: relative;
+  height: 50px;
+  width: 70px;
+
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: #af6d34;
+  gap: 0px;
+}
+
+.eye {
+  position: absolute;
+  top: 15px;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+}
+
+.left-eye {
+  left: 15px;
+}
+
+.right-eye {
+  left: -5px;
+}
+
+.dot {
+  position: absolute;
+  margin-top: 6px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.smile {
+  position: absolute;
+  bottom: 8px;
+  left: 6px;
+  width: 25px;
+  height: 15px;
+  border-bottom: 3px solid black;
+  border-radius: 0 0 50% 50%;
+}
+
+.bigRectangle {
+  height: 50px;
+  width: 2750px;
+  background-color: #af6d34;
+}
+
+#rect0 {
+  margin-right: 1px;
+}
+
+.rectangle {
+  border-radius: 5px;
+  width: 4px;
+  height: 60px;
+  margin: 0px 1px 0px 0px;
+}
+
+#rect1 {
+  background-color: #b5651d;
+}
+
+#rect2 {
+  background-color: #ae470bba;
+}
+
+#rect3 {
+  background-color: #341402ba;
+}
+
+#rect4 {
+  background-color: #72430aba;
+}
+
+#rect5 {
+  background-color: #c1558fba;
+}
+
+#rect6 {
+  background-color: #aa2d70ba;
+}
+
+#rect7 {
+  background-color: rgb(144, 116, 31);
+}
+
+#rect8 {
+  background-color: rgb(91, 65, 6);
+}
+
+#rect9 {
+  background-color: rgb(94, 58, 5);
+}
+
+#tail {
+  height: 50px;
+  width: 60px;
+
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #af6d34;
+}

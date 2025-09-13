@@ -1,0 +1,52 @@
+#footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  color: #d4a373;
+  text-align: left;
+  font-weight: 700;
+}
+
+.footerUL {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.footerUL > li {
+  font-weight: 300;
+}
+
+.footerUL > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+#creditsContainer > p > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+#creditsContainer > p > a:hover {
+  color: #cc6f13;
+  transition: color 0.2s ease-out;
+}
+
+.footerUL > li > a:hover {
+  color: #cc6f13;
+  transition: color 0.2s ease-out;
+  cursor: pointer;
+}
+
+#topText {
+  margin: 1rem 0 0.4rem 1rem;
+}
+
+#botText {
+  margin: 0 0 0.4rem 1rem;
+}
+
+#pinkDragon {
+  height: 4rem;
+}

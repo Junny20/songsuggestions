@@ -1,0 +1,99 @@
+#dataPageContainer {
+  padding: 0 3.5rem;
+}
+
+#dataHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0rem 3rem;
+}
+
+#dataImage {
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  border: none;
+  margin-top: 2rem;
+}
+
+#TitleAndDesc {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+#header {
+  font-size: 3.5rem;
+  margin-bottom: 3%;
+}
+
+#dataExample {
+  border-radius: 2px;
+  width: 43vw;
+  height: 46vh;
+  border: none;
+  margin: 0;
+}
+
+#usageAndIncludedContainer {
+  display: grid;
+  gap: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+#usageContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  background-color: #ccd5ae;
+  padding: 3rem 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 16px rgba(96, 132, 200, 0.3);
+  grid-area: 1 / 2 / 2 / 3;
+  width: 40vw;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+#usageTitle {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+#subhead {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 700;
+  color: #9b7652;
+}
+
+#usageList {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  align-items: center;
+  padding-left: 1rem;
+  color: #9b7652;
+}
+
+#includedContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #ccd5ae;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 16px rgba(96, 132, 200, 0.3);
+  grid-area: 1 / 1 / 3 / 2;
+  width: 40vw;
+  height: fit-content;
+}
+
+#dataExampleContainer {
+  grid-area: 2 / 2 / 3 / 3;
+  height: fit-content;
+  width: fit-content;
+}

@@ -1,0 +1,57 @@
+#dependenciesContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#dependenciesTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 2.1rem;
+  text-align: center;
+}
+
+.dependencyIcon {
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+#group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2.5rem;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding-left: 0;
+}
+
+@media (max-width: 600px) {
+  #group {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+#label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px;
+  color: #9b7652;
+}
+
+#item {
+  list-style-type: none;
+  margin: 20px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+  background-color: #ccd5ae;
+  box-shadow: 0 6px 16px rgba(157, 172, 153, 0.2);
+}
+
+#item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  cursor: pointer;
+}

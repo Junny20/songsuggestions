@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-color: #fefae0;
+  color: #d4a373;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+
+#line {
+  border-width: 1.5px;
+  border-color: black;
+  margin: 1.5rem 0;
+}
+
+p {
+  color: #9b7652;
+}
